@@ -5,6 +5,7 @@
 [Wizard](https://github.com/evalphobia/wizard) is the database connection library, which supports sharding and multiple instances.  
 [xorm](https://github.com/go-xorm/xorm) is used in wizard. (thanks [lunny](https://github.com/lunny))  
 
+[See the summary deck](https://www.slideshare.net/TakumaMorikawa/golangtokyo-7-wizard-database-sharding-library-for-golang)
 
 ### aws-sdk-go-wrapper
 
@@ -27,6 +28,13 @@ Supported services below,
 
 - Google Analytics
 - BigQuery
+- Stackdriver Logging
+- Stackdrriver monitoring
+- Google Cloud Vision
+
+### google-vision-ocr
+
+[google-vision-ocr](https://github.com/evalphobia/google-vision-ocr) extracts text from a bunch of images and save it to CSV.
 
 ### eurekache
 
@@ -63,6 +71,18 @@ These are plugins to sends log data to external services for [logrus](https://gi
     - [Sentry](https://sentry.io/) hook
 - [logrus_fluent](https://github.com/evalphobia/logrus_fluent)
     - [fluentd](http://www.fluentd.org/) hook
+
+### go-simple-proxy
+
+[go-simple-proxy](https://github.com/evalphobia/go-simple-proxy) is TCP proxy to forwarding port for unit testing.
+
+### github-branch-pr-number
+
+[github-branch-pr-number](https://github.com/evalphobia/github-branch-pr-number) is CLI tool to get PullRequest number from branch name.
+
+### go-datarobot
+
+[go-datarobot](https://github.com/evalphobia/go-datarobot) is [DataRobot](https://www.datarobot.com/) API client for golang.
 
 
 ----
