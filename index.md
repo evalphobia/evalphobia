@@ -78,6 +78,8 @@ These are plugins to sends log data to external services for [logrus](https://gi
     - [Sentry](https://sentry.io/) hook
 - [logrus_fluent](https://github.com/evalphobia/logrus_fluent)
     - [fluentd](http://www.fluentd.org/) hook
+- [logrus_stackdriver](https://github.com/evalphobia/logrus_stackdriver)
+    - [Stackdriver logging](https://cloud.google.com/logging/) hook
 
 ### go-simple-proxy
 
