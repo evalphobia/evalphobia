@@ -19,6 +19,7 @@ Supported services below,
 - S3
 - SNS
 - SQS
+- X-Ray
 
 ### google-api-go-wrapper
 
@@ -29,12 +30,18 @@ Supported services below,
 - Google Analytics
 - BigQuery
 - Stackdriver Logging
-- Stackdrriver monitoring
+- Stackdriver Monitoring
+- Stackdriver Trace
 - Google Cloud Vision
 
 ### google-vision-ocr
 
 [google-vision-ocr](https://github.com/evalphobia/google-vision-ocr) extracts text from a bunch of images and save it to CSV.
+
+### apptracer
+
+[apptracer](https://github.com/evalphobia/apptracer) is tracing helper for AWS X-Ray and Google Stackdriver Trace.
+
 
 ### eurekache
 
@@ -87,12 +94,24 @@ These are plugins to sends log data to external services for [logrus](https://gi
 
 ----
 
+## Python
+
+### serverless-datarobot
+
+[serverless-datarobot](https://github.com/evalphobia/serverless-datarobot) is DataRobot Prime REST API server for serverless.
+
+----
+
 ## JS
 
 ### Hydranger
 
 [Hydranger](https://github.com/evalphobia/hydranger) is frontend page for Google Spread Sheet.   
 See [demo](http://evalphobia.github.io/hydranger/demo/)
+
+### serverless-github2slack
+
+[serverless-github2slack](https://github.com/evalphobia/serverless-github2slack) is serveless version of [github2slack-lambda](https://github.com/evalphobia/github2slack-lambda).
 
 ### github2slack-lambda
 
